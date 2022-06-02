@@ -302,6 +302,166 @@ main {
 
 }
 
+/* ------Section product cards articles----- */
+
+.main__product--detail {
+    position: relative;
+    width: 100%;
+    min-width:320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+.product--detail__batata-logo {
+    position: absolute;
+    width: 40px ;
+    height: 25px;
+    top: -10px;
+    left: calc(50% - 40px/2);
+    background-image: url(./assets/icons/batata.svg);
+}
+
+.product__detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product__detail--title h2 {
+    margin-bottom: 24px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    font-weight: 700;
+}
+
+.product__detail--title p {
+    margin-bottom: 32px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #808080;
+}
+
+/* .product__cards--container {
+    background-color:var(--black);
+} */
+
+.product-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    min-height: 152px;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: var(--black);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+/* Cards */
+
+.product-detail--card .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-detail--card .clock {
+    background-image: url(./assets/icons/clock.svg);
+}
+
+.product-detail--card .eyes {
+    background-image: url(./assets/icons/eye.svg);
+}
+
+.product-detail--card .dollar {
+    background-image: url(./assets/icons/dollar-sign.svg);
+}
+
+.product-detail--card .check {
+    background-image: url(./assets/icons/check-circle.svg);
+}
+
+.product__card--title {
+    color:var(--just-white);
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.product__card--body {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #808080;
+    text-align: justify;
+    font-weight: 500;
+}
+
+/* -----Section comodin----- */
+
+.bitcoin__img-container {
+    width: 100%;
+    min-width: 288px;
+    height: 60vh;
+    background-image: url(./assets/img/bitcoinbaby2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+.bitcoin__img-container h2 {
+    color: var(--just-white);
+    margin: 0 auto;
+    padding-top: 42px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+}
+
+/* Section de planes */
+
+.main__plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 65px;
+    text-align: center;
+
+}
+
+.plans__title{
+   width: 90%; 
+   min-width: 288px;
+   height: auto;
+   margin: 0 auto;
+   margin-bottom: 45px;
+}
+
+.plans__title h2 {
+    padding-top: 65px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 700;  
+    color: var(--black);
+}
+
+.plans__title p {
+    padding-top: 25px ;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #757575;
+    font-weight: 500;
+}
 
 
 
